@@ -1,0 +1,88 @@
+
+/* General website styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdf5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #222;
+    color: #ffcc00;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 36px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* Website sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #9b7800;
+    font-size: 28px;
+}
+
+section p {
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+/* Home section */
+#home {
+    background-color: #fff3bf;
+}
+
+/* Photography image */
+#home img {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* Services */
+#services {
+    background-color: #fff3bf;
+}
+
+#services h3 {
+    color: #333;
+    margin-top: 30px;
+}
+
+/* Contact */
+#contact {
+    background-color: #fffdf5;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
